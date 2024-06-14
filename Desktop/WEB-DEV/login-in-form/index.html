@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <p>Sign in to your account</p>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <input type="checkbox" id="show-password" onclick="togglePassword()"><p class="show">show password</p>
+        <br><br>
+        <input type="submit" value="Login" class="login">
+      </form>
+      <div id="error-message"></div>
+      <div class="line1"></div>
+      <p class="option">or</p>
+      <div class="line2"></div>
+      <a href="https://m.facebook.com/story.php?story_fbid=pfbid02okcgv9a9EYv7WooduqxM6oH2b3z6sXmTFfnMyBH1BuBev7C5okjRc5QTv5FW1qoBl&id=100087391254088&mibextid=Nif5oz">
+        <button class="Connect">Connect with Facebook</button>
+      </a>
+      <p class="sign-up">Do`nt have an account? <span><a href="#">Sign Up</a></span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
